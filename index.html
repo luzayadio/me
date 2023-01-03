@@ -69,7 +69,7 @@
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 							<div class="profile-thumb" style="background: url(images/me3.jpeg);"></div>
 							<h1><span>Luzayadio Vila</span></h1>
-							<h3><span>Software Developer / To Be Software Engineer</span></h3>
+							<h3><span>Software Developer</span></h3>
 							<p>
 								<ul class="fh5co-social-icons">
 									<li><a href="https://www.linkedin.com/in/luzayadio-pindi-vila-790274142/" target="blank"><i class="icon-linkedin2"></i></a></li>
@@ -96,9 +96,9 @@
 				<div class="col-md-5">
 					<ul class="info">
 						<li><span class="first-block">Full Name:</span><span class="second-block">Luzayadio Pindi Vila</span></li>
-						<li><span class="first-block">Phone:</span><span class="second-block">+(244) 926 621 731</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">+(351) 915 020 477</span></li>
 						<li><span class="first-block">Email:</span><span class="second-block">lbenivila@gmail.com</span></li>
-						<li><span class="first-block">Address:</span><span class="second-block">Nova Vida, Kilamba Kiaxi, Luanda - Angola</span></li>
+						<li><span class="first-block">Address:</span><span class="second-block">Rua Duque de Bragança, Bloco 10, Apt 5º B, Guarda - Portugal</span></li>
 					</ul>
 				</div>
 				<div class="col-md-7">
@@ -127,7 +127,7 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Software Developer</h3>
-									<span class="company"><a href="https://www.medicare.co.ao" target="blank">Medicare Planos de Saúde - 2019 - Current</a></span>
+									<span class="company"><a href="https://www.medicare.co.ao" target="blank">Medicare Planos de Saúde | 2019 - Current</a></span>
 								</div>
 							</div>
 						</li>
@@ -136,7 +136,7 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Junior Developer</h3>
-									<span class="company"><a href="http://www.mindmapconsulting.co.ao/" target="blank">MindMap Consulting - 2017 - 2019</a></span>
+									<span class="company"><a href="http://www.mindmapconsulting.co.ao/" target="blank">MindMap Consulting | 2017 - 2019</a></span>
 								</div>
 							</div>
 						</li>
@@ -145,7 +145,7 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Help Desk</h3>
-									<span class="company"><a href="https://www.facebook.com/Aftermath0808" target="blank">Aftermath Cyber - 2017</a></span>
+									<span class="company"><a href="https://www.facebook.com/Aftermath0808" target="blank">Aftermath Cyber | 2017</a></span>
 								</div>
 							</div>
 						</li>
@@ -154,12 +154,21 @@
 						<li class="timeline-heading text-center animate-box">
 							<div><h3>Education</h3></div>
 						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">University</h3>
+									<span class="company"><a href="https://politecnicoguarda.pt/" target="blank">Politécnico da Guarda | 2022/2023 - Current</a></span>
+								</div>
+							</div>
+						</li>
 						<li class="timeline-inverted animate-box">
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">University</h3>
-									<span class="company"><a href="http://www.utanga.co.ao/portal" target="blank">UTANGA - 2019 - Not Finished</a></span>
+									<span class="company"><a href="http://www.utanga.co.ao/portal" target="blank">UTANGA | 2019 - Not Finished</a></span>
 								</div>
 							</div>
 						</li>
@@ -168,7 +177,7 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Higth School</h3>
-									<span class="company">IMIL Makarenko - 2014 - 2016</span>
+									<span class="company">IMIL Makarenko | 2014 - 2016</span>
 								</div>
 							</div>
 						</li>
@@ -177,7 +186,7 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Graduation</h3>
-									<span class="company">Colégio Joana Antide - 2004 - 2012</span>
+									<span class="company">Colégio Joana Antide | 2004 - 2012</span>
 								</div>
 							</div>
 						</li>
@@ -439,11 +448,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<p class="footer-p">&copy; 2022 &mdash; All Rights Reserved.</p>
+					<p class="footer-p">&copy; <span id="year">1997</span> &mdash; All Rights Reserved.</p>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<script>
+		let year = new Date().getFullYear();
+		document.getElementById("year").innerText = year;
+	</script>
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
